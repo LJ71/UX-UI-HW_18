@@ -8,12 +8,12 @@ body {
   max-width: 1920px;
   display: flex;
   min-height: 100vh;
-  padding: 0 20px;
 }
 aside {
-  background-color: #ffffff;
+  background-color: #ddd8c4;
   display: flex;
   width: 30%;
+  max-width: 300px;
   /*height: 100%;*/
   align-items: center;
   flex-direction: column;
@@ -22,6 +22,9 @@ aside {
 .logo {
   width: 118px;
   margin-top: 20px;
+}
+.pageHeading {
+  color: white;
 }
 .sit {
   width: 100%;
@@ -92,10 +95,8 @@ footer ul {
 }
 
 footer {
-  border: 2px solid white;
-  background-color: white;
+  background-color: #ddd8c4;
   padding: 20px;
-  margin: 0 20px;
 }
 .pageHeading {
   text-align: center;
@@ -109,6 +110,10 @@ footer {
   margin: 0 10px;
   padding: 10px;
   box-sizing: border-box;
+  color: white;
+}
+.skills {
+  color: white;
 }
 .skillBox img {
   width: 70%;
@@ -149,6 +154,7 @@ footer {
 }
 .projects h1 {
   text-align: center;
+  color: white;
 }
 .projectsContainer {
   display: grid;
@@ -194,4 +200,21 @@ footer {
 }
 .projectDetails h3 {
   margin-top: 0px;
+}
+.projectDetails {
+  color: white;
+}
+.projectDetails button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 6px;
+}
+
+.projectDetails button:hover {
+  background-color: black;
+  color: white;
 }
