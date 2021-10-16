@@ -2,6 +2,12 @@ body {
   background-color: #6e82ac;
 }
 
+i {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-size: 24px;
+}
+
 #container {
   box-sizing: border-box;
   width: 100%;
